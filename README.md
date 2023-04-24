@@ -12,6 +12,13 @@
 - data.count(), total non-null rows for the data.
 - data.shape[0], accesses a tuple that contains 0 - Rows and 1 - Columns - will print the amount of each, including null values.
 
+## Filtering Data
+
+- only_movies = netflix[netflix['type'] == 'Movie'] - selects only the data that fits with the filter.
+
+
+
+
 ## Exploring the Data (Visualization Tools) - Pandas and Altair
 
 - Import altair as at
