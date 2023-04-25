@@ -18,6 +18,7 @@
 
 - data['rating'].value_counts(), counts the amount of data for each attribute.
 - data = only_movies[only_movies['rating'].isin(['R', 'PG-13', 'NR', 'PG', 'G', 'UR', 'NC-17'])], filters only those that ARE IN the rating.
+- 
 
 
 ## Filtering Data
@@ -29,8 +30,15 @@
 
 ## Exploring the Data (Visualization Tools) - Pandas and Altair
 
-- Import altair as at
+- Import altair as at - imports Altair as visual library.
 
+# Create a simple bar chart
+- alt.Chart(mpaa).mark_point().encode(
+    x='rating',
+    y='count(rating)'
+) - uses mpaa as the data frame, 'rating' and 'count(rating)' are both attributes of the dataset, 
+
+- You can also use .mark_bar() instead of mark_point()
 
 ## Types of Graphs
 
