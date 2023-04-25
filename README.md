@@ -36,9 +36,21 @@
 
 BOX PLOT
 
-[![image](https://user-images.githubusercontent.com/57330752/234424387-446091c9-3cd4-4235-8fd3-1b48a8a2dd87.png)]
+![image](https://user-images.githubusercontent.com/57330752/234424387-446091c9-3cd4-4235-8fd3-1b48a8a2dd87.png)
+![image](https://user-images.githubusercontent.com/57330752/234429729-f3cac85a-e33a-402f-9b32-a7395be087e0.png)
+
 
 SCATTER PLOT
 ![image](https://user-images.githubusercontent.com/57330752/234424487-1e9fa4c3-470b-495b-af19-1f66a43799dd.png)
 
 
+SCATTER PLOT MATRIX
+![image](https://user-images.githubusercontent.com/57330752/234429676-de6ce8a7-a44c-4195-b757-479d3c2d3cc5.png)
+
+
+HISTOGRAM
+![image](https://user-images.githubusercontent.com/57330752/234429760-23a41542-f32f-40b1-b681-2f702bbf09c9.png)
+
+
+SMALL MULTIPLE BAR CHART
+![image](https://user-images.githubusercontent.com/57330752/234429796-0b99f1ba-e500-473f-83e7-423cf05c8564.png)
