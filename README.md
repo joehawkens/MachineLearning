@@ -30,3 +30,8 @@
 ## Exploring the Data (Visualization Tools) - Pandas and Altair
 
 - Import altair as at
+
+
+## Types of Graphs
+
+
