@@ -34,4 +34,6 @@
 
 ## Types of Graphs
 
+BOX PLOT
+[![image](https://user-images.githubusercontent.com/57330752/234424387-446091c9-3cd4-4235-8fd3-1b48a8a2dd87.png)]
 
