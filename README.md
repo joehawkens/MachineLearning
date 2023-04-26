@@ -26,6 +26,15 @@
 - only_movies = netflix[netflix['type'] == 'Movie'] - selects only the data that fits with the filter.
 
 
+## Formulas
+
+Recall:
+
+- recall = true positives / (true positives + false negatives)
+
+Precision:
+
+- precision = true positives / (true positives + false positives)
 
 
 ## Exploring the Data (Visualization Tools) - Pandas and Altair
