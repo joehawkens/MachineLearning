@@ -28,11 +28,11 @@
 
 ## Formulas
 
-Recall:
+Recall - used to evaluate performance of a classification model:
 
 - recall = true positives / (true positives + false negatives)
 
-Precision:
+Precision - used to evaluate performance of a classification model:
 
 - precision = true positives / (true positives + false positives)
 
