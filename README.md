@@ -18,7 +18,20 @@
 
 - data['rating'].value_counts(), counts the amount of data for each attribute.
 - data = only_movies[only_movies['rating'].isin(['R', 'PG-13', 'NR', 'PG', 'G', 'UR', 'NC-17'])], filters only those that ARE IN the rating.
-- 
+
+# Mapping Function
+
+mfr = summary_stats['mfr']
+mfr.value_counts()
+mfr_codes = {'A': 'American Home Food Products',
+             'G': 'General Mills',
+             'K': 'Kelloggs',
+             'N': 'Nabisco',
+             'P': 'Post',
+             'Q': 'Quaker Oats',
+             'R': 'Ralston Purina'}
+
+cereal['mfr_name'] = cereal['mfr'].map(mfr_codes)
 
 
 ## Filtering Data
