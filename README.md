@@ -24,6 +24,7 @@
 ## Filtering Data
 
 - only_movies = netflix[netflix['type'] == 'Movie'] - selects only the data that fits with the filter.
+- subset = data[['column1', 'column2', 'column3']]
 
 
 ## Formulas
