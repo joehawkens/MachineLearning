@@ -16,7 +16,6 @@
 - data.shape[0], accesses a tuple that contains 0 - Rows and 1 - Columns - will print the amount of each, including null values.
 
 
-
 # Mapping Function
 
 mfr = summary_stats['mfr']
@@ -39,6 +38,10 @@ cereal['mfr_name'] = cereal['mfr'].map(mfr_codes)
 - kelloggs = cereal[cereal['mfr'] == 'K']
 - data['rating'].value_counts(), counts the amount of data for each attribute.
 - data = only_movies[only_movies['rating'].isin(['R', 'PG-13', 'NR', 'PG', 'G', 'UR', 'NC-17'])], filters only those that ARE IN the rating.
+
+## Encoding
+
+Sometimes you need to encode categorical features into numbers so that models don't misinterpret the data. This is done through encoding:
 
 
 ## Formulas
