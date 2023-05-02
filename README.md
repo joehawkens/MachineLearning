@@ -42,8 +42,8 @@ cereal['mfr_name'] = cereal['mfr'].map(mfr_codes)
 ## Encoding
 
 Sometimes you need to encode categorical features into numbers so that models don't misinterpret the data. This is done through encoding:
-# The factorize() method returns the new values and the originals in a list. 
-# So the [0] at the end indicates we want only the new values.
+- The factorize() method returns the new values and the originals in a list. 
+- So the [0] at the end indicates we want only the new values.
 myData['Pet_Encoded'] = pd.factorize(myData['Pet'])[0]
 
 ## Formulas
