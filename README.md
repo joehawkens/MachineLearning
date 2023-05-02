@@ -46,6 +46,10 @@ Sometimes you need to encode categorical features into numbers so that models do
 - So the [0] at the end indicates we want only the new values.
 myData['Pet_Encoded'] = pd.factorize(myData['Pet'])[0]
 
+# Use One Hot Encoding for most things, unless there is a natural order to the data (ex: high school, some college, associates, bachedlors, masters, etc.)
+myEncodedData = pd.get_dummies(data, columns=['Embarked'], drop_first=True)
+myEncodedData
+
 ## Formulas
 
 Recall - used to evaluate performance of a classification model:
