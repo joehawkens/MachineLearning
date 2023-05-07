@@ -4,7 +4,7 @@
 
 ## Setting up the Data
 
-- Import pandas as pd
+- Import pandas as pd -
 - data = pd.read_csv("https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv")
 
 ## Functions
